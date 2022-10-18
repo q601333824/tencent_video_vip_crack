@@ -1,2 +1,2 @@
-# tencent_video_vip_crack
 白嫖腾讯vip视频浏览器实用小插件
+1.拖进浏览器安装即可
