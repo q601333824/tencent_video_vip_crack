@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "custom.js" ],
+      "matches": [ "https://v.qq.com/x/*", "https://www.iqiyi.com/v_*", "https://v.youku.com/v_show/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "vip视频解析插件,目前支持:腾讯视频、优酷视频、爱奇艺视频  by:奥村燐",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4OioprxEVrNFF9Iu7poD+hpTQpHoCqgXXv8h1LEUh4nOurmqwVCO8YenlM7WDFlseszeVSQKC0f7+jZIz4h99xHXH3Zg1JRbTdJyAk0BGoC54jWXq6TmuhfDHQdSX/QGz7ZWGIw0fkz42GvxmbZCv11kIUXT/YEraIqFCLqDlZyFlisyGW65l8kEF9rqBnnDrd3YZVzKZwI2WfcydOgbZ30I7B86jeTWTycglm4KHjPzekvfr/x8GlSlAnbD5SmZJ+emQCnKJR7zH8ejhFJCLscljzH6XlkfdK/zKiPI4rucA3xK0I3cWOn4Ltaz/o4FTWsvGBW6L72GSsqQcJjO4wIDAQAB",
+   "manifest_version": 2,
+   "name": "vip视频解析插件",
+   "permissions": [ "tabs" ],
+   "version": "1.0.0"
+}
